@@ -10,17 +10,15 @@
 }
 
 body {
-    background-color: #f5f5f5;
+    background-color: #2f3132;
 }
 
 html {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-   
 }
 
 .player {
-    position: relative;
     max-width: 480px;
     margin: 0 auto;
 }
@@ -46,7 +44,6 @@ html {
     top: 0;
     width: 100%;
     max-width: 480px;
-    border-bottom: 1px solid #ebebeb;
 }
 
 
@@ -119,7 +116,6 @@ header h2 {
 
 .progress {
     width: 100%;
-    -webkit-appearance: none;
     height: 6px;
     background: #d3d3d3;
     outline: none;
@@ -129,8 +125,6 @@ header h2 {
 }
 
 .progress::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
     width: 12px;
     height: 6px;
     background-color: var(--primary-color);
